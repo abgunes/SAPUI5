@@ -1,0 +1,21 @@
+[
+	{  
+	  name :"aishwary",
+	  roll : 1,
+	  state : "Bihar'
+	  Stream : "B.Tech."
+	},
+	{  
+	  name :"Nishant",
+	  roll : 2,
+	  state : "Bangalore'
+	  Stream : "B.Tech."
+	},
+	{  
+	  name :"Sandeep",
+	  roll : 3,
+	  state : "Kolkata'
+	  Stream : "B.Tech."
+	}
+]
+	

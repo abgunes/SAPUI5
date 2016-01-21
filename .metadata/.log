@@ -1,0 +1,1083 @@
+!SESSION 2015-12-21 11:50:05.183 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-21 11:51:36.094
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-21 11:51:36.094
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I324803.GLOBAL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-21 11:55:32.931 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-21 11:56:23.306
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-21 11:56:23.309
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I324803.GLOBAL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-12-21 11:56:25.215
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 12:07:30.910
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 12:07:30.925
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-21 12:07:31.191
+!MESSAGE Started Server for URL: http://localhost:60935/MyUI5App/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-21 12:21:28.390
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 12:33:10.626
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 12:33:10.642
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-21 12:33:10.735
+!MESSAGE Started Server for URL: http://localhost:61033/MyUI5App2/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-21 13:45:15.720
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 14:01:05.702
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 14:01:05.718
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-21 14:01:05.827
+!MESSAGE Started Server for URL: http://localhost:61827/MyUI5App2/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-21 15:02:19.843
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 15:03:46.146
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 15:03:46.162
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-21 15:03:46.287
+!MESSAGE Started Server for URL: http://localhost:62209/materdetail/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 16:03:32.343
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-21 16:03:32.359
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-21 16:03:32.437
+!MESSAGE Started Server for URL: http://localhost:62503/MyUI5App2/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-22 09:31:19.103
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-22 09:31:27.495
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 09:44:29.428
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 09:44:29.444
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-22 09:44:29.569
+!MESSAGE Started Server for URL: http://localhost:60660/MyUI5App3/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 10:32:23.228
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 10:32:23.243
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-22 10:32:23.353
+!MESSAGE Started Server for URL: http://localhost:60897/DualAxis/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 11:29:00.837
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 11:29:00.852
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-22 11:29:00.946
+!MESSAGE Started Server for URL: http://localhost:61161/materdetail/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-22 11:32:40.195
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-22 11:32:44.478
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 12:15:41.296
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 12:15:41.317
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-22 12:15:41.435
+!MESSAGE Started Server for URL: http://localhost:62347/DualAxis/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-22 12:15:48.215
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2015-12-22 13:52:05.477
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 13:54:50.909
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-12-22 13:54:50.922
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2015-12-22 13:54:51.027
+!MESSAGE Started Server for URL: http://localhost:55638/DualAxis/index.html
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2015-12-23 01:29:59.497
+!MESSAGE Error disposing widget for : org.eclipse.e4.ui.model.application.ui.menu.impl.MenuImpl null
+!STACK 0
+java.lang.IllegalArgumentException: Argument not valid
+	at org.eclipse.swt.SWT.error(SWT.java:4422)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.graphics.GC.setForeground(GC.java:4426)
+	at org.eclipse.swt.custom.CTabFolderRenderer.drawBackground(CTabFolderRenderer.java:702)
+	at org.eclipse.swt.custom.CTabFolderRenderer.drawBackground(CTabFolderRenderer.java:629)
+	at org.eclipse.swt.custom.CTabFolder.updateBkImages(CTabFolder.java:3800)
+	at org.eclipse.swt.custom.CTabFolder.setButtonBounds(CTabFolder.java:2535)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3705)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3640)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2034)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:290)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Control.sendResize(Control.java:2950)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:977)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1026)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3167)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:318)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:263)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:180)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.sendResize(Composite.java:981)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1026)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:204)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1465)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3143)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3167)
+	at org.eclipse.swt.custom.StackLayout.layout(StackLayout.java:123)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1465)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3143)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3167)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.setRectangle(SashLayout.java:318)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:263)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.tileSubNodes(SashLayout.java:306)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SashLayout.layout(SashLayout.java:180)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Widget.SetWindowPos(Widget.java:1465)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3143)
+	at org.eclipse.swt.widgets.Composite.setBounds(Composite.java:1020)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3104)
+	at org.eclipse.swt.widgets.Control.setBounds(Control.java:3100)
+	at org.eclipse.swt.layout.FillLayout.layout(FillLayout.java:204)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1290)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1701)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:79)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.EndDeferWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:950)
+	at org.eclipse.swt.widgets.Composite.resizeChildren(Composite.java:916)
+	at org.eclipse.swt.widgets.Composite.setResizeChildren(Composite.java:1127)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1705)
+	at org.eclipse.swt.widgets.Canvas.WM_SIZE(Canvas.java:462)
+	at org.eclipse.swt.widgets.Decorations.WM_SIZE(Decorations.java:1810)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4685)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5492)
+	at org.eclipse.swt.widgets.Canvas.WM_WINDOWPOSCHANGED(Canvas.java:468)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4698)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.SetMenu(Native Method)
+	at org.eclipse.swt.widgets.Decorations.setMenuBar(Decorations.java:1174)
+	at org.eclipse.swt.widgets.Menu.releaseParent(Menu.java:1186)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:824)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.disposeWidget(SWTPartRenderer.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:933)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow$1.handleEvent(WorkbenchWindow.java:319)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setWidget(UIElementImpl.java:261)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.unbindWidget(SWTPartRenderer.java:150)
+	at org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer$1.widgetDisposed(SWTPartRenderer.java:138)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:816)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:454)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.swt.widgets.Display.release(Display.java:3811)
+	at org.eclipse.swt.graphics.Device.dispose(Device.java:295)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3292)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at org.eclipse.jface.dialogs.MessageDialog.open(MessageDialog.java:341)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.open(MessageDialogWithToggle.java:114)
+	at org.eclipse.jface.dialogs.MessageDialogWithToggle.openOkCancelConfirm(MessageDialogWithToggle.java:209)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchWindowAdvisor.promptOnExit(IDEWorkbenchWindowAdvisor.java:218)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.handleEvent(IDEWorkbenchAdvisor.java:171)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4346)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3305)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5036)
+	at org.eclipse.swt.internal.win32.OS.PeekMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.PeekMessage(OS.java:3141)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2015-12-29 00:46:41.948 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-12-29 00:47:12.326
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-12-29 00:47:38.061
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-29 00:47:47.804
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-29 00:47:47.805
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I324803.GLOBAL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-12-29 01:01:50.157 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-29 01:02:31.525
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-12-29 01:02:31.527
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I324803.GLOBAL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-12-29 01:02:33.633
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-12-29 01:02:33.694
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-12-29 01:02:33.695
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.ide.ui5.services 1 1 2015-12-29 01:02:33.696
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+!SESSION 2016-01-07 10:29:56.009 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-07 10:30:46.615
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-07 10:30:46.624
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I324803.GLOBAL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.sap.ide.ui5.services 1 1 2016-01-07 10:31:00.749
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.ide.ui5.services 1 1 2016-01-07 10:31:00.751
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.ide.ui5.services 1 1 2016-01-07 10:31:00.754
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.ide.ui5.services 1 1 2016-01-07 10:31:00.757
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-07 13:27:31.250
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-07 13:27:31.264
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-07 13:27:31.566
+!MESSAGE Started Server for URL: http://localhost:51964/test_supm2//test_supm2/Sr_test/WebContent/DataRequest.html
+
+!ENTRY org.eclipse.jdt.core 4 4 2016-01-07 13:31:08.351
+!MESSAGE File not found: '/test_supm2/src/__2F_test_5F_supm2_2F_Sr_5F_test_2F_WebContent_2F_DataRequest_2E_jsp.java'
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/test_supm2/src/__2F_test_5F_supm2_2F_Sr_5F_test_2F_WebContent_2F_DataRequest_2E_jsp.java' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:288)
+	at org.eclipse.jdt.internal.core.util.Util.getResourceContentsAsCharArray(Util.java:1188)
+	at org.eclipse.jdt.internal.core.CompilationUnit.getContents(CompilationUnit.java:649)
+	at org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1118)
+	at org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:809)
+	at org.eclipse.jst.ws.jaxws.utils.clazz.ASTUtils.createCompilationUnit(ASTUtils.java:89)
+	at org.eclipse.jst.ws.jaxws.utils.internal.annotations.impl.AnnotationInspectorImpl.getCompilationUnit(AnnotationInspectorImpl.java:659)
+	at org.eclipse.jst.ws.jaxws.utils.internal.annotations.impl.AnnotationInspectorImpl.getSpecificAnnotationFromMember(AnnotationInspectorImpl.java:591)
+	at org.eclipse.jst.ws.jaxws.utils.internal.annotations.impl.AnnotationInspectorImpl.inspectType(AnnotationInspectorImpl.java:183)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.AbstractModelSynchronizer.processCompilationUnit(AbstractModelSynchronizer.java:116)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.OnEventModelSynchronizer.handleAddedCompilationUnit(OnEventModelSynchronizer.java:354)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.OnEventModelSynchronizer.recursevilyHandleCompilationUnits(OnEventModelSynchronizer.java:278)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.OnEventModelSynchronizer.recursevilyHandleCompilationUnits(OnEventModelSynchronizer.java:302)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.OnEventModelSynchronizer.recursevilyHandleCompilationUnits(OnEventModelSynchronizer.java:302)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.OnEventModelSynchronizer.handleChangedProject(OnEventModelSynchronizer.java:176)
+	at org.eclipse.jst.ws.jaxws.dom.runtime.persistence.sync.OnEventModelSynchronizer.elementChanged(OnEventModelSynchronizer.java:86)
+	at org.eclipse.jdt.internal.core.DeltaProcessor$4.run(DeltaProcessor.java:1695)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.notifyListeners(DeltaProcessor.java:1685)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.firePostChangeDelta(DeltaProcessor.java:1519)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.fire(DeltaProcessor.java:1495)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:770)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5358)
+	at org.eclipse.jst.jsp.core.internal.validation.JSPBatchValidator.validate(JSPBatchValidator.java:528)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:69)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:80)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:49)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-01-07 13:31:08.359
+!MESSAGE Resource '/test_supm2/src/__2F_test_5F_supm2_2F_Sr_5F_test_2F_WebContent_2F_DataRequest_2E_jsp.java' does not exist.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-07 16:32:05.774
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-01-07 16:32:05.775
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.775
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.jar 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.jar 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.775
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.2]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.775
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.775
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.3.201203161919]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-07 16:32:05.802
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-01-07 16:32:05.802
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.802
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.802
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.802
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.802
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.jar 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.802
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.jar 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.802
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.803
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.803
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.2]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.803
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.803
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.803
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.3.201203161919]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-07 16:32:05.867
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-01-07 16:32:05.868
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.868
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.jar 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.jar 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.868
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.2]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.868
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.868
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.3.201203161919]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-07 16:32:05.871
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-01-07 16:32:05.872
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.872
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.872
+!MESSAGE Software being installed: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.872
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.872
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.jar 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.872
+!MESSAGE RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.jar 1.3.3.201203161919)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.872
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.872
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.2 (runjettyrun_feature_support_jetty8.feature.group 1.3.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.872
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.2]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-07 16:32:05.873
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.873
+!MESSAGE From: RunJettyRun Jetty8 Support (Optional) 1.3.3.201203161919 (runjettyrun_feature_support_jetty8.feature.group 1.3.3.201203161919)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-07 16:32:05.873
+!MESSAGE To: runjettyrun_feature_support_jetty8.feature.jar [1.3.3.201203161919]
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-07 16:33:45.194
+!MESSAGE Stopped Server
+!SESSION 2016-01-07 16:33:50.497 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.sap.ide.ui5.services 1 1 2016-01-07 16:34:59.501
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-07 16:35:05.038
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-01-07 16:35:05.040
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\I324803.GLOBAL'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-07 16:39:11.665
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-07 16:39:11.675
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-07 16:39:11.916
+!MESSAGE Started Server for URL: http://localhost:50774/test_supm2//test_supm2/Sr_test/WebContent/DataRequest.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-07 16:46:06.919
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-07 16:46:06.929
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-07 16:46:07.013
+!MESSAGE Started Server for URL: http://localhost:51216/Sr_test/DataRequest.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-11 15:19:45.539
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-11 15:19:45.551
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-11 15:19:45.630
+!MESSAGE Started Server for URL: http://localhost:59405/SR_test_2/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 12:06:06.944
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 12:06:06.955
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-12 12:06:07.038
+!MESSAGE Started Server for URL: http://localhost:52275/test_sr_2/DataRequest.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 12:07:11.568
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 12:07:11.581
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-12 12:07:11.675
+!MESSAGE Started Server for URL: http://localhost:52376/test_sr_2/MyDataRequests.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-12 12:08:34.707
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-12 12:08:35.027
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-12 12:08:35.310
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-12 12:08:35.501
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-12 12:08:35.877
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 12:08:46.267
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 12:08:46.279
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-12 12:08:46.363
+!MESSAGE Started Server for URL: http://localhost:52512/test_sr_2/DataRequest.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 13:12:58.440
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-12 13:12:58.445
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-12 13:12:58.473
+!MESSAGE Started Server for URL: http://localhost:52885/test_sr_2/Attachments.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-17 21:13:45.492
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-17 21:13:45.508
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-17 21:13:45.640
+!MESSAGE Started Server for URL: http://localhost:57863/Practise1/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-17 21:14:35.072
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-17 21:14:35.511
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-17 21:14:35.705
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-17 21:16:19.754
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-17 21:16:19.768
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-17 21:16:19.864
+!MESSAGE Started Server for URL: http://localhost:58062/Practise1/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-18 11:14:41.513
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-18 11:14:41.529
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-18 11:14:41.629
+!MESSAGE Started Server for URL: http://localhost:59027/SAPUI5_Practise2/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-18 11:15:42.720
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-18 11:15:43.653
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-18 11:17:05.223
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-18 11:17:05.238
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-18 11:17:05.336
+!MESSAGE Started Server for URL: http://localhost:59109/SAPUI5_Practise2/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 11:57:44.033
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 11:57:44.049
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-19 11:57:44.190
+!MESSAGE Started Server for URL: http://localhost:50184/Practise1/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 12:21:39.123
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 12:21:39.137
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-19 12:21:39.236
+!MESSAGE Started Server for URL: http://localhost:63333/SAPUI5_Practise3/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-19 12:22:08.632
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-19 12:22:09.218
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-19 12:22:10.328
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 12:24:38.008
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 12:24:38.032
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-19 12:24:38.184
+!MESSAGE Started Server for URL: http://localhost:49539/SAPUI5_Practise3/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 20:39:48.060
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-19 20:39:48.079
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-19 20:39:48.183
+!MESSAGE Started Server for URL: http://localhost:55539/SAPUI5_Practise4/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 00:02:22.082
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 00:02:22.127
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-20 00:02:22.303
+!MESSAGE Started Server for URL: http://localhost:64472/SAPUI5_Practise5/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-20 00:02:41.699
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-20 00:02:43.288
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-20 00:02:43.915
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 00:03:13.050
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 00:03:13.063
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-20 00:03:13.179
+!MESSAGE Started Server for URL: http://localhost:65235/SAPUI5_Practise5/index.html
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-20 11:11:15.330
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.jst.server.preview.adapter 4 0 2016-01-20 11:13:43.160
+!MESSAGE An error occurred during publishing.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.apf.apf-lib_1.32.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ca.scfld.md_1.32.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ca.ui_1.32.2.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.collaboration.collaboration-commons_1.32.3.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ovp.ovp-lib_1.32.5.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.suite.suite-ui-commons_1.32.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.commons_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.comp_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.core_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.fl_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.160
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.layout_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.makit_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.mobile-ext_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.mobile_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.richtexteditor_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.table_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.themelib_sap_bluecrystal_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.themelib_sap_goldreflection_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.themelib_sap_platinum_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.unified_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.ux3_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.161
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.vbm_1.32.4.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.162
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ui5.viz_1.32.7.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.162
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ushell.ushell-lib-testresources_1.32.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.162
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.ushell.ushell-lib_1.32.6.jar. May be locked by another process.
+!SUBENTRY 1 org.eclipse.wst.server.core 4 0 2016-01-20 11:13:43.162
+!MESSAGE Could not delete C:\Users\I324803.GLOBAL\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\test_supm2\WEB-INF\lib\com.sap.uxap.uxap-uilib_1.32.6.jar. May be locked by another process.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 11:29:44.031
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 11:29:44.044
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-20 11:29:44.149
+!MESSAGE Started Server for URL: http://localhost:61111/MassAssignment_working/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 11:30:43.337
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 11:30:43.353
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-20 11:30:43.449
+!MESSAGE Started Server for URL: http://localhost:61163/massjs/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 16:08:06.996
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-20 16:08:07.011
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-20 16:08:07.109
+!MESSAGE Started Server for URL: http://localhost:55259/SAPUI5_Practise6/index.html
+
+!ENTRY org.eclipse.core.net 4 0 2016-01-20 23:57:48.824
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 10:02:23.436
+!MESSAGE 1 threads could not be stopped
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-21 10:02:23.455
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-21 10:02:25.567
+!MESSAGE Stopped Server
+
+!ENTRY com.sap.ide.ui5.app.plugin 1 0 2016-01-21 10:02:26.086
+!MESSAGE Stopped Server
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 10:02:35.421
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 10:02:35.437
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-21 10:02:35.548
+!MESSAGE Started Server for URL: http://localhost:56732/SAPUI5_Practise6/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 10:59:55.207
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 10:59:55.224
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-21 10:59:55.324
+!MESSAGE Started Server for URL: http://localhost:58776/massjs/index.html
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 11:14:13.829
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.ELContextCleaner
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-01-21 11:14:13.847
+!MESSAGE Could not instantiate listener org.eclipse.jetty.servlet.listener.IntrospectorCleaner
+
+!ENTRY com.sap.ide.ui5.app 1 0 2016-01-21 11:14:13.969
+!MESSAGE Started Server for URL: http://localhost:59413/MassAssignment_working/index.html

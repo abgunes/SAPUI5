@@ -1,0 +1,71 @@
+sap.ui.jsview("sapui5_practise5.Practise5", {
+
+	/** Specifies the Controller belonging to this View. 
+	* In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
+	* @memberOf sapui5_practise5.Practise5
+	*/ 
+	getControllerName : function() {
+		return "sapui5_practise5.Practise5";
+	},
+
+	/** Is initially called once after the Controller has been instantiated. It is the place where the UI is constructed. 
+	* Since the Controller is given to this method, its event handlers can be attached right away. 
+	* @memberOf sapui5_practise5.Practise5
+	*/ 
+	createContent : function(oController) {
+		var oMatrix=new sap.ui.commons.layout.MatrixLayout({
+			layoutFixed:true,
+			width:"600px",
+			widths:["150px","150px","150px","150px"],
+			columns:4
+		});
+		
+		var oCell=new sap.ui.commons.layout.MatrixLayoutCell({
+			colSpan:4
+		});
+		
+		var oText=new sap.ui.commons.TextView({
+			text:"User Profile Information",
+			design:sap.ui.commons.TextViewDesign.H4
+		});
+		oCell.addContent(oText);
+		oMatrix.createRow(oCell);
+		
+		var oLabel=new sap.ui.commons.Label({
+			text:"First Name"
+		});
+		
+		var oInput=new sap.ui.commons.TextField({
+			width:"150px"
+		});
+		
+		oMatrix.createRow(oLabel,oInput);
+	    oLabel=new sap.ui.commons.Label({
+			text:"Last Name"
+		});
+		
+		oInput=new sap.ui.commons.TextField({
+			width:"150px"
+		});
+		oMatrix.createRow(oLabel,oInput);
+		
+		var oButton=new sap.ui.commons.Button({
+			text:"Save",
+			press:function(){
+				var val=oInput.getValue();
+				alert("Data saved successfully "+val);
+				
+			}
+		});
+		
+		oMatrix.createRow(' ',oButton);
+		return oMatrix;
+// 		return new sap.m.Page({
+//			title: "Title",
+//			content: [
+//			
+//			]
+//		});
+	}
+
+});

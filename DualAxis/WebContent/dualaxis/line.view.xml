@@ -1,0 +1,10 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+xmlns:sap.viz.ui5="sap.viz.ui5" xmlns:sap.viz.ui5.data="sap.viz.ui5.data"
+xmlns:sap.viz.ui5.types="sap.viz.ui5.types"
+		controllerName="DualAxis.test.dualaxis.line" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<sap.viz.ui5:DualLine id="dualline" width="80%" height="400px"></sap.viz.ui5:DualLine>
+		</content>
+	</Page>
+</core:View>

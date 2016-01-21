@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="MyUI5App" name="MyUI5App" path="C:/Users/I324803.GLOBAL/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/MyUI5App" type="j2ee"/>
+  <module context="test_supm2" name="test_supm2" path="C:/Users/I324803.GLOBAL/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/test_supm2" type="j2ee"/>
+</server>

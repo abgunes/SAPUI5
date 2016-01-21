@@ -1,0 +1,44 @@
+sap.ui.jsview("sapui5_practise6.Practise6", {
+
+	/** Specifies the Controller belonging to this View. 
+	* In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
+	* @memberOf sapui5_practise6.Practise6
+	*/ 
+	getControllerName : function() {
+		return "sapui5_practise6.Practise6";
+	},
+
+	/** Is initially called once after the Controller has been instantiated. It is the place where the UI is constructed. 
+	* Since the Controller is given to this method, its event handlers can be attached right away. 
+	* @memberOf sapui5_practise6.Practise6
+	*/ 
+	createContent : function(oController) {
+		var oMatrix=new sap.ui.commons.layout.MatrixLayout("matrixId", {
+			layoutFixed:true,
+			width:"600px",
+			columns:3
+		});
+		
+		var oButton1=new sap.ui.commons.Button("button1Id", {
+			text:"Create",
+			press:function(){
+				oController.create();
+			}
+		});
+		var oButton2=new sap.ui.commons.Button("button2Id", {
+			text:"Edit",
+			press:function(){
+				oController.edit();
+			}
+		});
+		var oButton3=new sap.ui.commons.Button("button3Id", {
+			text:"Delete",
+			press:function(){
+				oController.remove();
+			}
+		});
+		oMatrix.createRow(oButton1,oButton2,oButton3);
+		return oMatrix;
+	}
+
+});

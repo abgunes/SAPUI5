@@ -1,0 +1,151 @@
+sap.ui.jsview("massjs.main", {
+
+	/** Specifies the Controller belonging to this View. 
+	 * In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
+	 * @memberOf massjs.main
+	 */
+	getControllerName : function() {
+		return "massjs.main";
+	},
+
+	/** Is initially called once after the Controller has been instantiated. It is the place where the UI is constructed. 
+	 * Since the Controller is given to this method, its event handlers can be attached right away. 
+	 * @memberOf massjs.main
+	 */
+	createContent : function(oController) {
+		var Page1 = new sap.m.Page("PageId1", {
+			title : "Mass Assignment",
+
+		});
+		// 		
+		// 		var oTable = new sap.ui.table.Table("tableId",{
+		//			visibleRowCount : 5,
+		//		    editable : false,
+		//		    title : "Employees",
+		//		    //navigationMode : sap.ui.table.NavigationMode.Paginator,
+		//		    cellClick : function(oEvent){
+		//		    	 oController.cellSelected(oEvent);
+		//		    }
+		//		});
+		// 		
+
+		// 		Page1.addContent(oTable);
+
+		var VLayout1 = new sap.ui.layout.VerticalLayout({
+			width : "100%"
+		});
+		
+		var VLayout2 = new sap.ui.layout.VerticalLayout({
+			width : "100%"
+		});
+		
+		
+
+		var FilterBarItem1 = new sap.ui.comp.filterbar.FilterItem("fi1", {
+			name : "A",
+			label : "KPI",
+			mandatory : true,
+			control : [ 
+			           new sap.ui.commons.TextField({
+			        	   
+			           })
+//			            {
+//				type : "Text"
+//			}
+			]
+
+		});
+		var FilterBarItem2 = new sap.ui.comp.filterbar.FilterItem("fi2", {
+			name : "B",
+			label : "Org",
+			control : [ 
+new sap.ui.commons.TextField({
+	   
+})
+			            ]
+		});
+
+		var FilterBar = new sap.ui.comp.filterbar.FilterBar({
+			reset : "onReset",
+			search : "onSearch",
+			showRestoreButton : true,
+			showClearButton : true,
+
+			filterItems : [ FilterBarItem2, FilterBarItem1
+
+			]
+
+		});
+
+		var Toolbar = new sap.m.Toolbar("bar1", {
+			content : [
+
+			new sap.m.Button("Assign", {
+
+				type : "Accept",
+				text : "ASSIGN"
+
+			}),
+
+			new sap.m.Button("Unassign", {
+
+				type : "Accept",
+				text : "UNASSIGN"
+
+			})
+
+			]
+
+		});
+		
+		var IconTab1 = new sap.m.IconTabBar("IdIconTab1", {
+			expanded : "{device>/isNoPhone}",
+			class : "sapUiResponsiveContentPadding",
+			items : [ new sap.m.IconTabFilter("tab1", {
+				icon : "sap-icon://addresses",
+				text : "ASSIGNED"
+
+			}), new sap.m.IconTabFilter("tab2", {
+				icon : "sap-icon://org-chart",
+				text : "UNASSIGNED"
+
+			}) ]
+
+		});
+		
+
+
+		
+
+		
+		//scroll.addContent(IconTab1);
+		
+
+		VLayout1.insertContent(FilterBar, 1);
+		VLayout1.insertContent(Toolbar, 2);
+		//VLayout1.insertContent(VLayout2, 3);
+		VLayout2.insertContent(IconTab1);
+
+		var scroll = new sap.m.ScrollContainer({
+			width : "100%",
+			height : "70%",
+			vertical : true,
+			content:[
+			         VLayout2
+			         ]
+		});
+		//VLayout2.insertContent(scroll, 1);
+
+		
+		
+		
+
+
+		
+		Page1.addContent(VLayout1);
+		Page1.addContent(scroll);
+
+		return Page1;
+	}
+
+});

@@ -1,0 +1,36 @@
+{
+	"ProductCollection": [{
+		"ProductId": "1239102",
+		"Name": "Core_kpi_1",
+		"Description": "Sample Kpi 1",
+		"Type": "Titanium",
+		"Status": "A very powerful projector with special features for Internet usability, USB",
+		"Primary Category": 1467,
+		"Assigned to": "g"
+    }, {
+		"ProductId": "1239102",
+		"Name": "Core_kpi_2",
+		"Description": "Sample Kpi 2",
+		"Type": "Titanium",
+		"Status": "A very powerful projector with special features for Internet usability, USB",
+		"Primary Category": 1467,
+		"Assigned to": "g"
+		
+	}, {
+		"ProductId": "1239102",
+		"Name": "Core_kpi_3",
+		"Description": "Sample Kpi 3",
+		"Type": "Titanium",
+		"Status": "A very powerful projector with special features for Internet usability, USB",
+		"Primary Category": 1467,
+		"Assigned to": "g"
+	}, {
+		"ProductId": "1239102",
+		"Name": "Core_kpi_4",
+		"Description": "Sample Kpi 4",
+		"Type": "Titanium",
+		"Status": "A very powerful projector with special features for Internet usability, USB",
+		"Primary Category": 1467,
+		"Assigned to": "g"
+	}]
+}

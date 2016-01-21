@@ -1,0 +1,69 @@
+sap.ui.jsview("sapui5_practise3.Details", {
+
+	/** Specifies the Controller belonging to this View. 
+	* In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
+	* @memberOf sapui5_practise3.Details
+	*/ 
+	getControllerName : function() {
+		return "sapui5_practise3.Details";
+	},
+
+	/** Is initially called once after the Controller has been instantiated. It is the place where the UI is constructed. 
+	* Since the Controller is given to this method, its event handlers can be attached right away. 
+	* @memberOf sapui5_practise3.Details
+	*/ 
+	createContent : function(oController) {
+		var item=sap.ui.getCore().getModel('item1');
+		console.log(item);
+		var oMatrixLayout=new sap.ui.commons.layout.MatrixLayout("matrixId", {
+			layoutFixed :true,
+			columns :2,
+			width :"90%",
+			widths :["20%","80%"]
+		});
+		oMatrixLayout.createRow(new sap.ui.commons.TextView({
+			text:"Name",
+			design : sap.ui.commons.TextViewDesign.Bold
+		}),
+		new sap.ui.commons.TextView({
+			text:"{item1>name}"
+				
+		})
+		);
+		oMatrixLayout.createRow(new sap.ui.commons.TextView({
+			text:"Roll",
+			design : sap.ui.commons.TextViewDesign.Bold
+		}),
+		new sap.ui.commons.TextView({
+			text:"{item1>roll}"
+				
+		})
+		);
+		oMatrixLayout.createRow(new sap.ui.commons.TextView({
+			text:"State",
+			design : sap.ui.commons.TextViewDesign.Bold
+		}),
+		new sap.ui.commons.TextView({
+			text:"{item1>state}"
+				
+		})
+		);
+		oMatrixLayout.createRow(new sap.ui.commons.TextView({
+			text:"Stream",
+			design : sap.ui.commons.TextViewDesign.Bold
+		}),
+		new sap.ui.commons.TextView({
+			text:"{item1>stream}"
+				
+		})
+		);
+		console.log(oMatrixLayout);
+		return new sap.m.Page({
+			title: "Details",
+			content: [
+			oMatrixLayout
+			]
+		});
+	}
+
+});

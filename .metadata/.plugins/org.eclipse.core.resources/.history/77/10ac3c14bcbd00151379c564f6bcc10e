@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m,sap.ui.commons"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+				sap.ui.localResources("sapui5_practise2");
+				/*var app = new sap.m.App({initialPage:"idPractise21"});
+				var page = sap.ui.view({id:"idPractise21", viewName:"sapui5_practise2.Practise2", type:sap.ui.core.mvc.ViewType.JS});
+				app.addPage(page);
+				app.placeAt("content");
+				
+				var data={ name : "Aishwary" , position :"Developer"};
+				var oModel=new sap.ui.model.json.JSONModel(data);
+				sap.ui.getCore().setModel(oModel);
+				var oText1=new sap.ui.commons.TextField("idTextField1", {
+					value : "{/name}"
+				});
+				var oText2=new sap.ui.commons.TextField("idTextField2", {
+					value : "{/position}"
+				});
+				
+				oText1.placeAt('content');
+				oText2.placeAt('content');*/
+				
+				var oMatrix=new sap.ui.commons.layout.MatrixLayout("idMatrixLayout", {
+					width: '600px',
+					columns : 3,
+					widths : ['200px','200px','200px']
+				});
+				
+				var oLabel1=new sap.m.Label("idLabel1", {
+					text : 'UserID'
+				});
+				
+				var oInput1=new sap.m.Input("idInput1",{
+					fieldWidth :'200px',
+					type : sap.m.InputType.Text
+				});
+				
+				var oLabel2=new sap.m.Label("idLabel2", {
+					text : 'Password'
+				});
+				
+				var oInput2=new sap.m.Input("idInput2",{
+					fieldWidth :'200px',
+					type : sap.m.InputType.Password
+				});
+				
+				oMatrix.createRow(oLabel1,oInput1);
+				oMatrix.createRow(oLabel2,oInput2);
+				
+				return oMatrix;
+				
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

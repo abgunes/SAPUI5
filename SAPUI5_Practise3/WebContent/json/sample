@@ -1,0 +1,20 @@
+[
+  {
+  "name" : "aishwary",
+  "roll" : 1,
+  "state" :"Bihar",
+  "stream" :"B.Tech."
+  },
+  {
+  "name" : "Nishant",
+  "roll" : 2,
+  "state" :"Bangalore",
+  "stream" :"B.Tech."
+  },
+  {
+  "name" : "Sandeep",
+  "roll" : 3,
+  "state" :"Kolkata",
+  "stream" :"B.Tech."
+  }
+]

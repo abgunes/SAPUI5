@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+
+		<script src="resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.m,sap.ui.commons"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+		<script>
+				sap.ui.localResources("sapui5_practise3");
+				/*var app = new sap.m.App({initialPage:"idPractise31"});
+				var page = sap.ui.view({id:"idPractise31", viewName:"sapui5_practise3.Practise3", type:sap.ui.core.mvc.ViewType.JS});
+				app.addPage(page);
+				app.placeAt("content");*/
+				
+				var oSplitApp = new sap.m.SplitApp("addId", {});
+				var oIntroPage = new sap.ui.view({
+					id:'introID',
+					viewName : "sapui5_practise3.Practise3",
+					type : sap.ui.core.mvc.ViewType.JS
+				})
+				var oMasterPage = new sap.ui.view({
+					id:'masterID',
+					viewName : "sapui5_practise3.Master",
+					type : sap.ui.core.mvc.ViewType.JS
+				})
+				oSplitApp.addDetailPage(oIntroPage);
+				oSplitApp.addMasterPage(oMasterPage);
+				oSplitApp.placeAt("content");
+		</script>
+
+	</head>
+	<body class="sapUiBody" role="application">
+		<div id="content"></div>
+	</body>
+</html>

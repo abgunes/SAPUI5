@@ -1,0 +1,95 @@
+sap.ui.jsview("sapui5_practise4.Practise4", {
+
+	/** Specifies the Controller belonging to this View. 
+	* In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
+	* @memberOf sapui5_practise4.Practise4
+	*/ 
+	getControllerName : function() {
+		return "sapui5_practise4.Practise4";
+	},
+
+	/** Is initially called once after the Controller has been instantiated. It is the place where the UI is constructed. 
+	* Since the Controller is given to this method, its event handlers can be attached right away. 
+	* @memberOf sapui5_practise4.Practise4
+	*/ 
+	createContent : function(oController) {
+ 		var oLayout=new sap.ui.layout.form.GridLayout({
+ 			singleColumn :true
+ 		});
+ 		var oForm=new sap.ui.layout.form.Form({
+ 			title:new sap.ui.core.Title({text:"Grid layout form"}),
+ 			width :"100%",
+ 			layout:oLayout,
+ 			formContainers:[
+ 			                new sap.ui.layout.form.FormContainer({
+ 			                	formElements:[
+ 			                	              new sap.ui.layout.form.FormElement({
+ 			                	            	  label:new sap.ui.commons.Label({
+ 			                	            		  text:"Phone",
+ 			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+ 			                	            			  hCells:"1"
+ 			                	            		  })
+ 			                	            	  }),
+ 			                	            	 fields:[
+ 			                	            	        new sap.ui.commons.TextField({
+			                	            		  
+			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+			                	            			  hCells:"2"
+			                	            		  })
+			                	            	  }),
+			                	            	  new sap.ui.commons.TextField({
+			                	            		  
+			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+			                	            			  hCells:"2"
+			                	            		  })
+			                	            	  }),
+			                	            	  new sap.ui.commons.TextField({
+			                	            		  
+			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+			                	            			  hCells:"3"
+			                	            		  })
+			                	            	  })
+ 			                	            	        ]
+			                	            	  
+ 			                	              })
+ 			                	              ]
+ 			                }),
+ 			               new sap.ui.layout.form.FormContainer({
+			                	formElements:[
+			                	              new sap.ui.layout.form.FormElement({
+			                	            	  label:new sap.ui.commons.Label({
+			                	            		  text:"Name",
+			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+			                	            			  hCells:"1"
+			                	            		  })
+			                	            	  }),
+			                	            	 fields:[
+			                	            	        new sap.ui.commons.TextField({
+			                	            		  
+			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+			                	            			  hCells:"4"
+			                	            		  })
+			                	            	  }),
+			                	            	  new sap.ui.commons.TextField({
+			                	            		  
+			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+			                	            			  hCells:"3"
+			                	            		  })
+			                	            	  }),
+//			                	            	  new sap.ui.commons.TextField({
+//			                	            		  
+//			                	            		  layoutData:new sap.ui.layout.form.GridElementData({
+//			                	            			  hCells:"3"
+//			                	            		  })
+//			                	            	  })
+			                	            	        ]
+			                	            	  
+			                	              })
+			                	              ]
+			                })
+ 			                ]
+ 		})
+	return oForm;
+	}
+
+});

@@ -1,0 +1,47 @@
+sap.ui.jsview("sapui5_practise2.Practise2", {
+
+	/** Specifies the Controller belonging to this View. 
+	* In the case that it is not implemented, or that "null" is returned, this View does not have a Controller.
+	* @memberOf sapui5_practise2.Practise2
+	*/ 
+	getControllerName : function() {
+		return "sapui5_practise2.Practise2";
+	},
+
+	/** Is initially called once after the Controller has been instantiated. It is the place where the UI is constructed. 
+	* Since the Controller is given to this method, its event handlers can be attached right away. 
+	* @memberOf sapui5_practise2.Practise2
+	*/ 
+	createContent : function(oController) {
+		var oMatrix=new sap.ui.commons.layout.MatrixLayout("idMatrixLayout", {
+			width: '600px',
+			columns : 3,
+			widths : ['200px','200px','200px']
+		});
+		
+		var oLabel1=new sap.m.Label("idLabel1", {
+			text : 'UserID'
+		});
+		
+		var oInput1=new sap.m.Input("idInput1",{
+			fieldWidth :'200px',
+			type : sap.m.InputType.Text
+		});
+		
+		var oLabel2=new sap.m.Label("idLabel2", {
+			text : 'Password'
+		});
+		
+		var oInput2=new sap.m.Input("idInput2",{
+			fieldWidth :'200px',
+			type : sap.m.InputType.Password
+		});
+		
+		oMatrix.createRow(oLabel1,oInput1,'');
+		oMatrix.createRow(oLabel2,oInput2,'');
+		
+		return oMatrix;
+	}
+		
+
+});

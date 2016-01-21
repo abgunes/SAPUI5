@@ -1,0 +1,12 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		xmlns:viz="sap.viz.ui5.controls"
+		controllerName="myui5app3.firstView" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+		<ScrollContainer height="100%" width="100%" horizontal="true" vertical="true" focusable="true">
+		<viz:Popover id="idPopOver"></viz:Popover>
+		<viz:VizFrame id="idVizFrameLine" uiConfig="{applicationSet:'fiori'}" vizType="line" width="700px" height="700px"></viz:VizFrame>
+		</ScrollContainer> 
+		</content>
+	</Page>
+</core:View>
